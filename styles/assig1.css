@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#ourservices{
+    background-color: blueviolet;
+    
+}
+#ourservices h1{
+    text-align: center;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin: 10px auto;
+}
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+.services{
+    background-color: rgba(8, 8, 8, 0.804);
+    padding: 30px 50px;
+    margin: 20px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #fff;
+    margin-left: 10px;
+  
+}
+.services h3{
+font-size: 18px;
+/* padding: 20px; */
+margin-bottom: 10px;
+text-transform: capitalize;
+text-align: center;
+color: hsl(0, 6%, 83%);
+}
+.services h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+span{
+    font-size: 15px;
+}
+ul li{
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 7px 5px;
+    color: #d60808;
+   
+}
+ul p{
+   
+    color: hsl(0, 6%, 83%);
+}
+button{
+    background: none;
+    padding: 8px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: -10px;
+    text-transform: capitalize;
+}
+button:hover{
+    background-color:  #e33058;
+}
+@media screen and (max-width: 768px){
+    .container{
+        flex-direction: column;
+    }
+}

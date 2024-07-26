@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    margin-top: 30px;
+}
+.wrapper h1{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.clothes{
+    /* width: 80%; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin: 40px 170px;
+}
+.clothes img{
+    width: 170px;
+}
+.clothes p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+.clothes h2{
+    margin-top: 20px;
+    text-align: center;
+}

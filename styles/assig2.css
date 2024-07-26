@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgba(10, 10, 210, 0.931);
+}
+.info{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: -10px auto;
+}
+.image img{
+width: 300px;
+padding: 20px;
+margin-top: 20px;
+border-radius: 5px;
+height: 400px;
+
+}
+.content{
+    margin-left: 50px;
+    color: #fff;
+    margin-top: 30px;
+
+}
+.content h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.content p{
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: justify;
+}
+.content button{
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 10px;
+    font-size: 17px;
+    color: black;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.ourservices{
+    background-color: blueviolet;
+}
+.ourservices h1{
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 40px;
+    position: relative;
+}
+.ourservices  h1 span{
+    color: red;
+}
+.ourservices h1::after{
+    content: "";
+  height: 4px;
+  width: 230px;
+  display: block;
+  margin: auto;
+  background-color: #fff;
+}
+.services{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.service_list{
+    background-color: #fff;
+    padding: 10px 2px;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+.service_list i{
+    text-align: center;
+    color: red;
+    margin-left: 90px;
+    font-size: 50px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.service_list h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.service_list p{
+    padding: 20px 20px;
+    font-size: 20px;
+    color: #666;
+    line-height: 1.4;
+}
+@media screen  and (max-width: 768px){
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
